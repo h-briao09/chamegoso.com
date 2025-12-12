@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scottgames Style</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            cursor: default;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            user-select: none;
+        }
+
+        /* Texto oculto estilo Scott */
+        .hidden-msg {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: #020202; /* Quase invisível */
+            font-family: monospace;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Troque teaser.png pelo seu teaser -->
+    <img src="teaser.png" alt="Teaser">
+
+    <!-- Mensagem escondida -->
+    <div class="hidden-msg">he always comes back...</div>
+</body>
+</html>
