@@ -37,7 +37,17 @@
 
 <body>
     <img src="teaser.png" alt="Teaser">
+    <audio id="musica" src="Menu_Theme.mp3"></audio>
 
     <div class="hidden-msg">March 2026</div>
+<script>
+        const audio = document.getElementById("musica");
+
+        // Tocar música ao clicar em QUALQUER parte do site
+        document.body.addEventListener("click", () => {
+            audio.play();
+        });
+    </script>
+
 </body>
 </html>
